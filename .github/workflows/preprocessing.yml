@@ -30,4 +30,4 @@ jobs:
 
       - name: Run Preprocessing
         run: |
-          python preprocessing/automate_Batara.py
+          python automate_Batara.py
