@@ -47,6 +47,6 @@ def clean_dataset(input_dir, output_dir):
 if __name__ == "__main__":
 
     clean_dataset(
-        "D:/VISUAL CODE/Microsoft VS Code/Eksperimen_SML_Batara/plantvillage_raw",
-        "plantvillage_preprocessing"
+        "./plantvillage_raw",
+        "./plantvillage_preprocessing"
     )
