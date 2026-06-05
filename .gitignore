@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Tensorflow model
+*.h5
+*.keras
+
+# VS Code
+.vscode/
+
+# Dataset Raw (opsional)
+plantvillage_raw/
+
+# Dataset preprocessing (opsional)
+plantvillage_preprocessing/
