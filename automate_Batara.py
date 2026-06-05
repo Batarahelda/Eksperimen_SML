@@ -46,7 +46,22 @@ def clean_dataset(input_dir, output_dir):
 
 if __name__ == "__main__":
 
+    INPUT_DIR = "./plantvillage_raw"
+    OUTPUT_DIR = "./plantvillage_preprocessing"
+
+    if not os.path.exists(INPUT_DIR):
+
+        print(
+            f"Dataset tidak ditemukan: {INPUT_DIR}"
+        )
+
+        print(
+            "Preprocessing dilewati."
+        )
+
+        exit(0)
+
     clean_dataset(
-        "./plantvillage_raw",
-        "./plantvillage_preprocessing"
+        INPUT_DIR,
+        OUTPUT_DIR
     )
